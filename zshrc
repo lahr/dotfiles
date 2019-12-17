@@ -8,6 +8,11 @@ setopt INC_APPEND_HISTORY_TIME
 autoload -U colors && colors
 PS1="%{$fg[red]%}%n%{$reset_color%}@%{$fg[green]%}%m %{$fg[yellow]%}%~ %{$reset_color%}%# "
 
+CLICOLOR=1
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ll='ls -alhHG'
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/usr/local/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
