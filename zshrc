@@ -6,7 +6,7 @@ setopt EXTENDED_HISTORY
 setopt INC_APPEND_HISTORY_TIME
 
 autoload -U colors && colors
-PS1="%{$fg[red]%}%n%{$reset_color%}@%{$fg[green]%}%m %{$fg[yellow]%}%~ %{$reset_color%}%# "
+PS1="%T %{$fg[red]%}%n%{$reset_color%}@%{$fg[green]%}%m %{$fg[yellow]%}%~ %{$reset_color%}%# "
 
 CLICOLOR=1
 alias ..='cd ..'
