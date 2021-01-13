@@ -10,5 +10,8 @@
         "**/CVS": false
     },
     "editor.renderControlCharacters": true,
-    "editor.renderWhitespace": "all"
+    "editor.renderWhitespace": "all",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.ignoreRecommendations": true
 }
