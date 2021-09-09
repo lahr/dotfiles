@@ -12,6 +12,7 @@ CLICOLOR=1
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ll='ls -alhHG'
+alias grep='grep --color=auto'
 
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
