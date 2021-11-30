@@ -13,6 +13,7 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ll='ls -alhHG'
 alias grep='grep --color=auto'
+alias history='history 0'
 
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
